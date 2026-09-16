@@ -4,6 +4,38 @@
 
 ---
 
+## 🗺️ Mapa de Arquitectura del Dominio 1
+
+```mermaid
+graph TD
+    D1[DOMINIO 1: Soberanía, Orden Jurídico y Seguridad] --> C11[Cartera 1.1: Orden Interno y Policía]
+    D1 --> C12[Cartera 1.2: Defensa y Seguridad Territorial]
+    D1 --> C13[Cartera 1.3: Justicia y Derechos Reales]
+
+    C11 --> S111[1.1.1: Inteligencia y Crimen Organizado]
+    C11 --> S112[1.1.2: Seguridad Ciudadana y Policía Comunitaria]
+    C11 --> S113[1.1.3: Control Fronterizo y Migraciones]
+
+    C12 --> S121[1.2.1: Soberanía de Espacios Estratégicos]
+    C12 --> S122[1.2.2: Ciberdefensa de Infraestructura Crítica]
+
+    C13 --> S131[1.3.1: Gestión Procesal y Fiscalía]
+    C13 --> S132[1.3.2: Régimen Penitenciario e INPE]
+    C13 --> S133[1.3.3: Registros Públicos y Catastro SUNARP]
+
+    S111 -.->|Punto de Falla Crítica| F1[D1-01: Extorsión Pyme & Cuentas Mula]
+    S133 -.->|Punto de Falla Crítica| F2[D1-02: Tráfico de Tierras & Catastro Roto]
+
+    style D1 fill:#b91c1c,stroke:#7f1d1d,stroke-width:2px,color:#fff
+    style C11 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C12 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C13 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style F1 fill:#450a0a,stroke:#dc2626,stroke-width:2px,color:#fca5a5
+    style F2 fill:#450a0a,stroke:#dc2626,stroke-width:2px,color:#fca5a5
+```
+
+---
+
 ## 📋 Problemas Estructurales Catalogados
 
 | ID | Título del Problema | Severidad | Métrica de Quiebre | TAM LatAm (USD) | Tesis de Startup Principal (RFS) |

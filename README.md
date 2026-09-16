@@ -27,6 +27,31 @@ El repositorio está organizado en 6 dominios funcionales independientes de mini
 | **D5: Recursos Naturales, Energía y Matriz** | [`problems/D5_energia_y_recursos/`](problems/D5_energia_y_recursos/README.md) | Ventana de 50 años del cobre, energía solar barata ($65/MWh) sin data centers y estrés hídrico. | 2 |
 | **D6: Gobernanza, Calidad Burocrática y Política** | [`problems/D6_gobernanza_y_burocracia/`](problems/D6_gobernanza_y_burocracia/README.md) | Inestabilidad ministerial (6 meses), extorsión administrativa municipal y silos de datos PIDE. | 2 |
 
+```mermaid
+graph TD
+    PAIS[EL SISTEMA PERÚ] --> D1[D1: Soberanía, Orden y Seguridad]
+    PAIS --> D2[D2: Estructura Económica y Capital]
+    PAIS --> D3[D3: Bienestar, Salud y Capital Humano]
+    PAIS --> D4[D4: Infraestructura y Conectividad]
+    PAIS --> D5[D5: Recursos Naturales y Energía]
+    PAIS --> D6[D6: Gobernanza y Burocracia]
+
+    D1 --> D1_RFS[RFS: LoRaWAN Mesh & Cobro Ciego]
+    D2 --> D2_RFS[RFS: Underwriting por WhatsApp]
+    D3 --> D3_RFS[RFS: D2C Pharma & Tele-Triaje IA]
+    D4 --> D4_RFS[RFS: Freight Matching & Patios Chancay]
+    D5 --> D5_RFS[RFS: AI Solar Data Centers]
+    D6 --> D6_RFS[RFS: GovTech Scraping & Anti-Extorsión Municipal]
+
+    style PAIS fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style D1 fill:#991b1b,stroke:#dc2626,stroke-width:1px,color:#fff
+    style D2 fill:#065f46,stroke:#10b981,stroke-width:1px,color:#fff
+    style D3 fill:#1e40af,stroke:#3b82f6,stroke-width:1px,color:#fff
+    style D4 fill:#9a3412,stroke:#f97316,stroke-width:1px,color:#fff
+    style D5 fill:#854d0e,stroke:#eab308,stroke-width:1px,color:#fff
+    style D6 fill:#5b21b6,stroke:#8b5cf6,stroke-width:1px,color:#fff
+```
+
 ### 🌳 El Árbol Jerárquico Completo (Dominio ➔ Cartera ➔ Subcartera ➔ División ➔ Cuello de Botella)
 
 Cada uno de los 6 Dominios se desagrega de forma sistemática en **Carteras Funcionales**, **Subcarteras de Política**, **Divisiones Operativas** y **Cuellos de Botella Atómicos**:

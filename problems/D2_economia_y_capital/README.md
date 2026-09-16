@@ -4,6 +4,37 @@
 
 ---
 
+## 🗺️ Mapa de Arquitectura del Dominio 2
+
+```mermaid
+graph TD
+    D2[DOMINIO 2: Estructura Económica, Mercados y Capital] --> C21[Cartera 2.1: Economía, Finanzas y Hacienda]
+    D2 --> C22[Cartera 2.2: Industria, Producción y Pesca]
+    D2 --> C23[Cartera 2.3: Trabajo y Empleo]
+
+    C21 --> S211[2.1.1: Política Tributaria y SUNAT]
+    C21 --> S212[2.1.2: Regulación Financiera y SBS]
+    C21 --> S213[2.1.3: Hacienda y Presupuesto Público]
+
+    C22 --> S221[2.2.1: MYPE, Parques Industriales y CITEs]
+    C22 --> S222[2.2.2: Pesca Industrial y Acuicultura]
+
+    C23 --> S231[2.3.1: Relaciones Laborales y SUNAFIL]
+    C23 --> S232[2.3.2: Capacitación y Juventud NININI]
+
+    S212 -.->|Punto de Falla Crítica| F1[D2-01: Ceguera Crediticia 71% Informal]
+    S212 -.->|Punto de Falla Crítica| F2[D2-02: Spread Bancario Usurero 0.2% vs 110%]
+
+    style D2 fill:#047857,stroke:#065f46,stroke-width:2px,color:#fff
+    style C21 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C22 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C23 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style F1 fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#a7f3d0
+    style F2 fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#a7f3d0
+```
+
+---
+
 ## 📋 Problemas Estructurales Catalogados
 
 | ID | Título del Problema | Severidad | Métrica de Quiebre | TAM LatAm (USD) | Tesis de Startup Principal (RFS) |

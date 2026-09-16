@@ -4,6 +4,39 @@
 
 ---
 
+## 🗺️ Mapa de Arquitectura del Dominio 3
+
+```mermaid
+graph TD
+    D3[DOMINIO 3: Bienestar Social, Salud y Capital Humano] --> C31[Cartera 3.1: Salud Pública y Farmacéutica]
+    D3 --> C32[Cartera 3.2: Educación, Ciencia e Innovación]
+    D3 --> C33[Cartera 3.3: Inclusión y Asistencia Social]
+
+    C31 --> S311[3.1.1: Epidemiología y Anemia Infantil]
+    C31 --> S312[3.1.2: Red Prestacional y Citas Médicas]
+    C31 --> S313[3.1.3: Cadena Farmacéutica y DIGEMID]
+
+    C32 --> S321[3.2.1: Educación Básica e Infraestructura]
+    C32 --> S322[3.2.2: Educación Superior y SUNEDU]
+    C32 --> S323[3.2.3: Ciencia y Tecnología CONCYTEC]
+
+    C33 --> S331[3.3.1: Focalización SISFOH y Subsidios]
+
+    S313 -.->|Punto de Falla Crítica| F1[D3-01: Cártel Farmacéutico 85% & DIGEMID]
+    S311 -.->|Punto de Falla Crítica| F2[D3-02: 43.6% Anemia & Daño Cerebral Infantil]
+    S312 -.->|Punto de Falla Crítica| F3[D3-03: Citas en EsSalud a 5 Meses & 35% Out-of-Pocket]
+
+    style D3 fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#fff
+    style C31 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C32 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C33 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style F1 fill:#1e1b4b,stroke:#3b82f6,stroke-width:2px,color:#bfdbfe
+    style F2 fill:#1e1b4b,stroke:#3b82f6,stroke-width:2px,color:#bfdbfe
+    style F3 fill:#1e1b4b,stroke:#3b82f6,stroke-width:2px,color:#bfdbfe
+```
+
+---
+
 ## 📋 Problemas Estructurales Catalogados
 
 | ID | Título del Problema | Severidad | Métrica de Quiebre | TAM LatAm (USD) | Tesis de Startup Principal (RFS) |

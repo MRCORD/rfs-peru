@@ -4,6 +4,36 @@
 
 ---
 
+## 🗺️ Mapa de Arquitectura del Dominio 6
+
+```mermaid
+graph TD
+    D6[DOMINIO 6: Gobernanza, Burocracia y Política] --> C61[Cartera 6.1: Función Pública y Estabilidad]
+    D6 --> C62[Cartera 6.2: Simplificación y Competencia]
+    D6 --> C63[Cartera 6.3: Gobernanza Digital y Datos]
+
+    C61 --> S611[6.1.1: Carrera Pública y SERVIR]
+    C61 --> S612[6.1.2: Descentralización y Gob. Regionales]
+
+    C62 --> S621[6.2.1: Barreras Burocráticas Indecopi]
+    C62 --> S622[6.2.2: Inspecciones Municipales ITSE]
+
+    C63 --> S631[6.3.1: Interoperabilidad Plataforma PIDE]
+    C63 --> S632[6.3.2: Contrataciones Abiertas SEACE]
+
+    S622 -.->|Punto de Falla Crítica| F1[D6-01: Extorsión Administrativa Municipal en Licencias]
+    S631 -.->|Punto de Falla Crítica| F2[D6-02: Silos de Datos Estatales & Tiranía del Papel]
+
+    style D6 fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#fff
+    style C61 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C62 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style C63 fill:#1e293b,stroke:#475569,stroke-width:1px,color:#fff
+    style F1 fill:#4c1d95,stroke:#a855f7,stroke-width:2px,color:#e9d5ff
+    style F2 fill:#4c1d95,stroke:#a855f7,stroke-width:2px,color:#e9d5ff
+```
+
+---
+
 ## 📋 Problemas Estructurales Catalogados
 
 | ID | Título del Problema | Severidad | Métrica de Quiebre | TAM LatAm (USD) | Tesis de Startup Principal (RFS) |
