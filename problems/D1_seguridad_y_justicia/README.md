@@ -41,7 +41,7 @@ graph TD
 | ID | Título del Problema | Severidad | Métrica de Quiebre | TAM LatAm (USD) | Tesis de Startup Principal (RFS) |
 |---|---|:---:|---|---|---|
 | [**D1-01**](C1.1_orden_interno_y_policia/S1.1.1_inteligencia_y_crimen_organizado/D1-01-extorsion-pymes.md) | **Extorsión a Pymes y Cobro de Cupos** | `critical` | 85k denuncias vs. 20 sentencias (0.02% efectividad) | **$45B** | Hardware LoRaWAN Mesh + Facturación y Cobro Ciego (Zero-Knowledge) |
-| [**D1-02**](D1-02-trafico-tierras.md) | **Inseguridad en Tenencia de Tierra y Tráfico de Suelo** | `high` | 15 años de saneamiento en SUNARP; 120k litigios | **$30B** | Catastro Soberano Satelital + Títulos Tokenizados con Trazabilidad |
+| [**D1-02**](C1.3_justicia_fe_publica_y_derechos_reales/S1.3.3_registros_publicos_catastro_notarial/D1-02-trafico-tierras.md) | **Inseguridad en Tenencia de Tierra y Tráfico de Suelo** | `high` | 15 años de saneamiento en SUNARP; 120k litigios | **$30B** | Catastro Soberano Satelital + Títulos Tokenizados con Trazabilidad |
 
 ---
 

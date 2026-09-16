@@ -18,7 +18,7 @@ Agrupa al Ministerio Público (fiscalía), el Poder Judicial, el INPE y la SUNAR
 |---|---|:---:|
 | [S1.3.1 — Gestión Procesal Penal y Ministerio Público](S1.3.1_gestion_procesal_y_ministerio_publico/README.md) | Tramitación de investigaciones fiscales y peritajes forenses/contables de lavado de activos. | 0 |
 | [S1.3.2 — Régimen Penitenciario y Rehabilitación Social](S1.3.2_regimen_penitenciario_y_rehabilitacion/README.md) | Hacinamiento carcelario, aislamiento de comunicaciones y programas de rehabilitación del INPE. | 0 |
-| [S1.3.3 — Registros Públicos, Catastro y Fe Notarial](S1.3.3_registros_publicos_catastro_notarial/README.md) | Saneamiento predial en SUNARP y prevención del fraude notarial en el tráfico de tierras. | 0 |
+| [S1.3.3 — Registros Públicos, Catastro y Fe Notarial](S1.3.3_registros_publicos_catastro_notarial/README.md) | Saneamiento predial en SUNARP y prevención del fraude notarial en el tráfico de tierras. | 1 (D1-02) |
 
 ---
 
