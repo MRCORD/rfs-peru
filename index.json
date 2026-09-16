@@ -1,0 +1,286 @@
+[
+  {
+    "id": "D1-01",
+    "domain_id": "D1",
+    "domain_name": "Soberanía, Orden Jurídico y Seguridad",
+    "title": "Extorsión Sistemática a Pymes y Cobro de Cupos",
+    "file": "problems/D1_seguridad_y_justicia/D1-01-extorsion-pymes.md",
+    "severity": "critical",
+    "metrics": {
+      "annual_reports": 85000,
+      "conviction_rate": 0.0002,
+      "estimated_economic_loss_usd": 1800000000
+    },
+    "market_scaling": {
+      "tam_peru_usd": "1.8B",
+      "tam_latam_usd": "45B",
+      "tam_global_usd": "200B"
+    },
+    "startup_theses": [
+      "Hardware Mesh LoRaWAN y Telemetría Colectiva Barrial",
+      "Rieles de Facturación Fantasma y Protección de Identidad Comercial (Zero-Knowledge Invoicing)"
+    ]
+  },
+  {
+    "id": "D1-02",
+    "domain_id": "D1",
+    "domain_name": "Soberanía, Orden Jurídico y Seguridad",
+    "title": "Inseguridad Jurídica en Tenencia de Tierra y Tráfico de Suelo",
+    "file": "problems/D1_seguridad_y_justicia/D1-02-trafico-tierras.md",
+    "severity": "high",
+    "metrics": {
+      "average_sanitation_years": 15,
+      "litigation_cases_active": 120000
+    },
+    "market_scaling": {
+      "tam_peru_usd": "1.2B",
+      "tam_latam_usd": "30B",
+      "tam_global_usd": "150B"
+    },
+    "startup_theses": [
+      "Catastro Digital Soberano con Verificación Satelital Multiespectral",
+      "Títulos de Propiedad e Inmuebles Tokenizados con Cadena de Custodia Inmutable"
+    ]
+  },
+  {
+    "id": "D2-01",
+    "domain_id": "D2",
+    "domain_name": "Estructura Económica, Mercados y Capital",
+    "title": "Ceguera Crediticia Algorítmica y Exclusión del 71% Informal",
+    "file": "problems/D2_economia_y_capital/D2-01-ceguera-crediticia-informal.md",
+    "severity": "critical",
+    "metrics": {
+      "informal_workforce_percentage": 0.71,
+      "excluded_population_millions": 24,
+      "formal_tam_millions": 9
+    },
+    "market_scaling": {
+      "tam_peru_usd": "15B",
+      "tam_latam_usd": "350B",
+      "tam_global_usd": "2.5T"
+    },
+    "startup_theses": [
+      "Motor de Underwriting Alternativo Basado en Flujos Conversacionales de WhatsApp",
+      "Micro-Líneas de Capital de Trabajo Desintermediadas Fondeadas por Deuda Privada Global"
+    ]
+  },
+  {
+    "id": "D2-02",
+    "domain_id": "D2",
+    "domain_name": "Estructura Económica, Mercados y Capital",
+    "title": "Oligopolio Bancario del Big 4 y Spread Parasitario",
+    "file": "problems/D2_economia_y_capital/D2-02-spread-bancario-parasitario.md",
+    "severity": "high",
+    "metrics": {
+      "deposit_interest_rate_pct": 0.20,
+      "consumer_credit_tcea_pct": 110,
+      "licensing_delay_years": 4
+    },
+    "market_scaling": {
+      "tam_peru_usd": "8B",
+      "tam_latam_usd": "180B",
+      "tam_global_usd": "1.2T"
+    },
+    "startup_theses": [
+      "Neobanco de Rendimiento en Dólares/Stablecoins al 6% Anual con Retiro Inmediato",
+      "Mercado Descentralizado de Micro-Factoring B2B con Liquidación en 10 Minutos"
+    ]
+  },
+  {
+    "id": "D3-01",
+    "domain_id": "D3",
+    "domain_name": "Bienestar Social, Capital Humano y Servicios Vitales",
+    "title": "Cártel del Retail Farmacéutico y Desabastecimiento Hospitalario",
+    "file": "problems/D3_salud_y_capital_humano/D3-01-cartel-farmacias-d2c.md",
+    "severity": "critical",
+    "metrics": {
+      "retail_chain_concentration_pct": 0.85,
+      "out_of_pocket_health_spend_pct": 0.35,
+      "digemid_approval_delay_years": 3
+    },
+    "market_scaling": {
+      "tam_peru_usd": "3.2B",
+      "tam_latam_usd": "65B",
+      "tam_global_usd": "600B"
+    },
+    "startup_theses": [
+      "Farmacia Digital Directa al Consumidor (D2C) para Enfermedades Crónicas",
+      "Escáner de Recetas Médicas por Visión de IA con Comparador de Precios en Vivo"
+    ]
+  },
+  {
+    "id": "D3-02",
+    "domain_id": "D3",
+    "domain_name": "Bienestar Social, Capital Humano y Servicios Vitales",
+    "title": "Anemia Infantil Crónica y Daño Neurocognitivo Temprano",
+    "file": "problems/D3_salud_y_capital_humano/D3-02-anemia-primera-infancia.md",
+    "severity": "critical",
+    "metrics": {
+      "infant_anemia_rate_under_3": 0.436,
+      "rural_anemia_rate_puno": 0.65,
+      "drop_out_rate_iron_drops": 0.50
+    },
+    "market_scaling": {
+      "tam_peru_usd": "800M",
+      "tam_latam_usd": "15B",
+      "tam_global_usd": "100B"
+    },
+    "startup_theses": [
+      "Telemetría y Seguimiento Remoto Automatizado por WhatsApp para Madres con Hijos Anémicos",
+      "Fortificación y Alimentos Funcionales Bioasimilables sin Efectos Secundarios Gástricos"
+    ]
+  },
+  {
+    "id": "D3-03",
+    "domain_id": "D3",
+    "domain_name": "Bienestar Social, Capital Humano y Servicios Vitales",
+    "title": "Colapso del Agendamiento Médico y Citas Ambulatorias a 6 Meses",
+    "file": "problems/D3_salud_y_capital_humano/D3-03-colapso-citas-essalud.md",
+    "severity": "high",
+    "metrics": {
+      "appointment_delay_months": 5,
+      "lima_specialist_concentration_pct": 0.60
+    },
+    "market_scaling": {
+      "tam_peru_usd": "1.5B",
+      "tam_latam_usd": "35B",
+      "tam_global_usd": "250B"
+    },
+    "startup_theses": [
+      "Tele-Triaje Asíncrono por Agentes de IA Clínicos y Conexión de Médicos para Provincias (HablaDoc)",
+      "Plataforma de Subastas de Capacidad Quirúrgica y Consultorios Ociosos"
+    ]
+  },
+  {
+    "id": "D4-01",
+    "domain_id": "D4",
+    "domain_name": "Infraestructura Física, Logística y Conectividad",
+    "title": "Descoordinación de Carga Interprovincial y Fletes Ciegos (40% Vacíos)",
+    "file": "problems/D4_infraestructura_y_logistica/D4-01-fletes-ciegos-carreteras.md",
+    "severity": "high",
+    "metrics": {
+      "national_logistics_cost_pct": 0.34,
+      "ocde_logistics_cost_pct": 0.09,
+      "empty_return_trucks_pct": 0.40,
+      "post_harvest_crop_waste_pct": 0.35
+    },
+    "market_scaling": {
+      "tam_peru_usd": "4.5B",
+      "tam_latam_usd": "140B",
+      "tam_global_usd": "1.2T"
+    },
+    "startup_theses": [
+      "Freight Marketplace Andino con Matching de Capacidad de Retorno en Tiempo Real",
+      "Micro-Cadenas de Frío Solar como Servicio (Cold-Chain-as-a-Service) en Origen Agrícola"
+    ]
+  },
+  {
+    "id": "D4-02",
+    "domain_id": "D4",
+    "domain_name": "Infraestructura Física, Logística y Conectividad",
+    "title": "Cuello de Botella en Patios y Accesos a Megapuertos (Callao y Chancay)",
+    "file": "problems/D4_infraestructura_y_logistica/D4-02-cuello-botella-megapuertos.md",
+    "severity": "high",
+    "metrics": {
+      "truck_waiting_hours_at_port": 8,
+      "infrastructure_gap_usd": 140000000000,
+      "annual_execution_usd": 14600000000
+    },
+    "market_scaling": {
+      "tam_peru_usd": "2.1B",
+      "tam_latam_usd": "40B",
+      "tam_global_usd": "300B"
+    },
+    "startup_theses": [
+      "Sistema de Citas Portuarias Virtuales Geocercadas para Chancay y Callao",
+      "Aduana Inteligente Digital y Ventanilla Logística Unificada Descentralizada"
+    ]
+  },
+  {
+    "id": "D5-01",
+    "domain_id": "D5",
+    "domain_name": "Recursos Naturales, Energía y Matriz Productiva",
+    "title": "Paradoja Energética: Energía Solar Barata ($65/MWh) vs Cero Data Centers de IA",
+    "file": "problems/D5_energia_y_recursos/D5-01-data-centers-desierto-solar.md",
+    "severity": "high",
+    "metrics": {
+      "solar_energy_cost_mwh_usd": 65,
+      "global_hyperscaler_capex_2025_usd": 371000000000,
+      "local_ai_hyperscale_datacenters": 0
+    },
+    "market_scaling": {
+      "tam_peru_usd": "500M",
+      "tam_latam_usd": "18B",
+      "tam_global_usd": "1.0T"
+    },
+    "startup_theses": [
+      "Greenfield AI Data Centers Modulares Alimentados por Energía Solar en el Sur del Perú",
+      "Nube Soberana Regional de GPUs para Startups y Empresas de América Latina"
+    ]
+  },
+  {
+    "id": "D5-02",
+    "domain_id": "D5",
+    "domain_name": "Recursos Naturales, Energía y Matriz Productiva",
+    "title": "Estrés Hídrico en la Costa Desértica y Desperdicio en Riego Tradicional",
+    "file": "problems/D5_energia_y_recursos/D5-02-estres-hidrico-costa.md",
+    "severity": "critical",
+    "metrics": {
+      "population_in_pacific_coast_pct": 0.70,
+      "freshwater_availability_pacific_pct": 0.018,
+      "unconnected_population_water_millions": 3.5,
+      "water_loss_traditional_irrigation_pct": 0.60
+    },
+    "market_scaling": {
+      "tam_peru_usd": "1.4B",
+      "tam_latam_usd": "32B",
+      "tam_global_usd": "250B"
+    },
+    "startup_theses": [
+      "Riego por Goteo Solar como Servicio (Irrigation-as-a-Service) para Pequeñas Parcelas",
+      "Micro-Plantas Desalinizadoras Modulares Barriales con Pago Digital por Litro"
+    ]
+  },
+  {
+    "id": "D6-01",
+    "domain_id": "D6",
+    "domain_name": "Gobernanza, Calidad Burocrática y Estabilidad Política",
+    "title": "Discrecionalidad en Fiscalizaciones Municipales y Extorsión Administrativa",
+    "file": "problems/D6_gobernanza_y_burocracia/D6-01-extorsion-administrativa-municipal.md",
+    "severity": "high",
+    "metrics": {
+      "commercial_closure_discretionary_rate": 0.40,
+      "ministerial_average_tenure_months": 6
+    },
+    "market_scaling": {
+      "tam_peru_usd": "900M",
+      "tam_latam_usd": "25B",
+      "tam_global_usd": "120B"
+    },
+    "startup_theses": [
+      "Plataforma de Cumplimiento Normativo y Autoevaluación ITSE Inmutable en Video",
+      "Fast-Track Automatizado de Licencias Municipales con Emisión en 10 Minutos"
+    ]
+  },
+  {
+    "id": "D6-02",
+    "domain_id": "D6",
+    "domain_name": "Gobernanza, Calidad Burocrática y Estabilidad Política",
+    "title": "Silos de Datos Públicos y Rechazo a la Interoperabilidad de APIs (PIDE)",
+    "file": "problems/D6_gobernanza_y_burocracia/D6-02-silos-datos-publicos-pide.md",
+    "severity": "medium",
+    "metrics": {
+      "cira_environmental_permit_delay_months": 24,
+      "physical_document_dependency_pct": 0.80
+    },
+    "market_scaling": {
+      "tam_peru_usd": "600M",
+      "tam_latam_usd": "14B",
+      "tam_global_usd": "90B"
+    },
+    "startup_theses": [
+      "Capa de Abstracción e Interoperabilidad GovTech que Automatiza Trámites Ciudadanos por Scraping",
+      "Auditoría Algorítmica de Términos de Referencia para Detectar Direccionamiento en Compras del Estado"
+    ]
+  }
+]

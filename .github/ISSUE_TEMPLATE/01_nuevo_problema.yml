@@ -1,0 +1,78 @@
+name: 🚨 Proponer Nuevo Problema Estructural
+description: Documenta una falla sistémica del Perú por primeros principios con datos verificables.
+title: "[PROBLEMA]: "
+labels: ["problema", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por contribuir a la auditoría abierta del Perú.
+        Por favor evita quejas emocionales o ad-hominem. Enfócate en **la física, los números y la mecánica sistémica de la falla**.
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Dominio Macro de Estado
+      description: Selecciona el dominio al que pertenece este problema.
+      options:
+        - "D1: Soberanía, Orden Jurídico y Seguridad"
+        - "D2: Estructura Económica, Mercados y Capital"
+        - "D3: Bienestar Social, Capital Humano y Servicios Vitales"
+        - "D4: Infraestructura Física, Logística y Conectividad"
+        - "D5: Recursos Naturales, Energía y Matriz Productiva"
+        - "D6: Gobernanza, Calidad Burocrática y Estabilidad Política"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Título Neutral del Problema
+      description: Describe la falla de forma objetiva (ej. "Cuello de botella en la tramitación de peritajes contables de lavado de activos").
+      placeholder: "Título descriptivo..."
+    validations:
+      required: true
+  - type: textarea
+    id: symptoms
+    attributes:
+      label: 1. El Síntoma Visible en la Calle
+      description: ¿Cómo se manifiesta este problema en el día a día de ciudadanos, comerciantes o empresas?
+      placeholder: "La gente o las pymes sufren esto cuando..."
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: 2. Datos Duros y Métricas Verificables
+      description: Obligatorio. Incluye al menos un número (horas perdidas, porcentaje de informalidad, pérdida en USD, etc.) y la fuente oficial.
+      placeholder: "Ejemplo: 43.6% de anemia infantil según INEI (Endes 2023)..."
+    validations:
+      required: true
+  - type: dropdown
+    id: archetype
+    attributes:
+      label: 3. Arquetipo de Falla Sistémica
+      description: ¿A cuál de los 6 arquetipos universales responde la falla? (Ver framework)
+      options:
+        - "1. Asimetría de Información y Ceguera de Datos"
+        - "2. Desalineamiento de Incentivos y Captura de Rentas"
+        - "3. Capacidad Ociosa por Falta de Coordinación Física"
+        - "4. Barrera de Umbral y Costo de Transacción Prohibitivo"
+        - "5. Fragmentación Institucional y Silos No Interoperables"
+        - "6. Falla de Colas y Asincronía Espacio-Temporal"
+    validations:
+      required: true
+  - type: textarea
+    id: why_incumbent_fails
+    attributes:
+      label: 4. Por Qué el Estado o el Incumbente Privado no lo Puede Resolver
+      description: ¿Qué incentivo perverso o traba regulatoria impide que la solución actual funcione?
+      placeholder: "El sistema no lo resuelve porque..."
+    validations:
+      required: true
+  - type: textarea
+    id: startup_hypothesis
+    attributes:
+      label: 5. Hipótesis Inicial de Startup (Request for Startups)
+      description: ¿Qué software, hardware ágil o bypass tecnológico podría resolver esto a costo marginal?
+      placeholder: "Una startup podría construir..."
+    validations:
+      required: false

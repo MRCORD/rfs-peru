@@ -1,0 +1,46 @@
+name: 📰 Aportar Evidencia o Noticia Reciente
+description: Enlaza una noticia, reportaje, resolución oficial o estadística a un problema existente.
+title: "[EVIDENCIA]: "
+labels: ["evidencia", "noticias"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Utiliza este formulario para mantener la base de datos viva con noticias y reportajes recientes que demuestren que el problema sigue activo.
+  - type: input
+    id: problem_id
+    attributes:
+      label: ID del Problema Relacionado
+      description: Coloca el ID del problema del repositorio (ej. D1-01, D2-01, D3-01, etc.).
+      placeholder: "D1-01"
+    validations:
+      required: true
+  - type: input
+    id: news_title
+    attributes:
+      label: Titular de la Noticia o Fuente
+      placeholder: "Ejemplo: Paro de 40 empresas de transporte en Lima Norte por cobro de cupos"
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Enlace a la Fuente (URL)
+      placeholder: "https://elcomercio.pe/..."
+    validations:
+      required: true
+  - type: input
+    id: publication_date
+    attributes:
+      label: Fecha de Publicación
+      placeholder: "AAAA-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: key_insight
+    attributes:
+      label: Dato o Revelación Clave
+      description: ¿Qué número o hecho nuevo revela esta noticia que enriquece la Capa 5 del problema?
+      placeholder: "La nota confirma que los extorsionadores están cobrando S/20 diarios por unidad..."
+    validations:
+      required: true

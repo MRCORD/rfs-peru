@@ -1,0 +1,48 @@
+name: 💡 Proponer Tesis de Startup (Request for Startups)
+description: Comparte una hipótesis técnica y modelo de negocio para resolver uno de los problemas del repo.
+title: "[TESIS RFS]: "
+labels: ["rfs-tesis", "startups"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Presenta tu hipótesis técnica para atacar uno de los cuellos de botella del repositorio con mentalidad YC/a16z.
+  - type: input
+    id: problem_id
+    attributes:
+      label: ID del Problema que Resuelve
+      description: ID canónico del problema en el repositorio (ej. D2-01, D3-01).
+      placeholder: "D2-01"
+    validations:
+      required: true
+  - type: input
+    id: thesis_name
+    attributes:
+      label: Nombre del Concepto o Tesis
+      placeholder: "Ejemplo: Motor de Underwriting Basado en Telemetría de WhatsApp"
+    validations:
+      required: true
+  - type: textarea
+    id: the_why_now
+    attributes:
+      label: El "Why Now?" (Inflexión Tecnológica o de Costos)
+      description: ¿Qué cambió en el mundo en los últimos 6 a 12 meses que hace que esto sea posible hoy?
+      placeholder: "Los modelos multimodales ahora procesan audio en jerga local a costo de centavos..."
+    validations:
+      required: true
+  - type: textarea
+    id: the_bypass
+    attributes:
+      label: Cómo se Ejecuta el Bypass al Estado o al Incumbente
+      description: ¿Cómo opera la startup sin esperar a que el Congreso cambie una ley o el banco tradicional colabore?
+      placeholder: "Se conecta directamente con distribuidoras mayoristas privadas y liquida vía..."
+    validations:
+      required: true
+  - type: textarea
+    id: business_model
+    attributes:
+      label: Modelo de Negocio y Unit Economics
+      description: ¿Quién paga y por qué le resulta 10x más barato o rápido que la alternativa actual?
+      placeholder: "Se cobra un porcentaje sobre el flete optimizado o un take-rate de..."
+    validations:
+      required: true

@@ -1,0 +1,22 @@
+# rfs-peru (Request for Startups: Perú)
+> Base de datos estructurada de problemas sistémicos del Perú y tesis de startups por primeros principios.
+
+## Estructura del Repositorio
+- `problems/`: Archivos Markdown de problemas organizados en 6 dominios. Cada archivo contiene YAML frontmatter con métricas y tesis.
+  - `problems/D1_seguridad_y_justicia/`: Extorsión, impunidad, derechos de propiedad.
+  - `problems/D2_economia_y_capital/`: Informalidad, ceguera crediticia, spread bancario.
+  - `problems/D3_salud_y_capital_humano/`: Salud fragmentada, cártel de boticas, anemia.
+  - `problems/D4_infraestructura_y_logistica/`: Fletes vacíos, puertos, congestión urbana.
+  - `problems/D5_energia_y_recursos/`: Cobre, energía solar barata, data centers.
+  - `problems/D6_gobernanza_y_burocracia/`: Estabilidad, discrecionalidad, interoperabilidad.
+- `framework/`: Metodología de análisis de primeros principios y matrices sistémicas.
+  - `framework/01_first_principles.md`: Metodología en 5 capas.
+  - `framework/02_six_domains_taxonomy.md`: Clasificación jerárquica de 6 dominios y subdominios.
+  - `framework/03_market_bets_rfs.md`: Filosofía YC/a16z de tesis de mercado y TAMs.
+- `evidence/`: Registros de fuentes de datos, noticias y estadísticas validadas.
+- `index.json`: Índice programático con metadatos de todos los problemas y tesis.
+
+## Reglas para Agentes de IA
+1. Al citar o referenciar problemas, usa el ID canónico (ej. `D1-01`, `D2-01`, `D3-01`).
+2. Consulta siempre el frontmatter YAML de cada archivo para obtener las métricas numéricas verificadas (`annual_volume`, `conviction_rate`, `economic_loss_usd`).
+3. No propongas soluciones aisladas o quejas superficiales; cada tesis debe resolver una de las 6 fallas sistémicas universales catalogadas en `framework/`.
