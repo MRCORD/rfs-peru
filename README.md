@@ -1,16 +1,50 @@
-# rfs-peru (Request for Startups: Perú) 🇵🇪🚀
+<div align="center">
 
-> **Base de conocimiento de código abierto para auditar problemas estructurales del Perú mediante primeros principios y transformarlos en tesis de startups de billones de dólares para América Latina y el Sur Global.**
+# REQUEST FOR STARTUPS: PERÚ (RFS-PERÚ)
+### *De la Falla Sistémica a la Startup de Escala Continental*
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active%20Research-emerald.svg?style=flat-square)]()
+[![AI-Native](https://img.shields.io/badge/AI--Native-llms.txt%20%2B%20index.json-purple.svg?style=flat-square)](llms.txt)
+[![Architecture](https://img.shields.io/badge/Taxonomy-6%20Domains%20%7C%2021%20Carteras-orange.svg?style=flat-square)](framework/02_six_domains_taxonomy.md)
+[![TAM LatAm](https://img.shields.io/badge/Aggregate%20TAM-$646B%20USD-green.svg?style=flat-square)](framework/systemic_interconnections_and_market_sizing.md)
+
+<p align="center">
+  <b>Base de conocimiento abierta que audita los problemas estructurales del Perú mediante primeros principios y los transforma en tesis de startups de billones de dólares para América Latina y el Sur Global.</b>
+</p>
+
+<p align="center">
+  <a href="#-los-6-dominios-de-estado"><b>Explorar los 6 Dominios</b></a> •
+  <a href="#-el-%C3%A1rbol-jer%C3%A1rquico-completo-dominio--cartera--subcartera--divisi%C3%B3n--cuello-de-botella"><b>Ver Árbol Completo</b></a> •
+  <a href="llms.txt"><b>llms.txt (AI Prompt)</b></a> •
+  <a href="index.json"><b>index.json (API Data)</b></a> •
+  <a href="CONTRIBUTING.md"><b>Cómo Contribuir</b></a>
+</p>
 
 ---
 
-## 🤖 Para Modelos de IA y Agentes Autónomos (AI-Native Notice)
+### ⚡ Métricas de la Fricción Real (Ground Truth)
+
+| **0.02%** | **71%** | **35%** | **34%** | **$65/MWh** | **0** |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Tasa de condena en 85k extorsiones anuales | Informalidad laboral (24M sin scoring) | Gasto de bolsillo familiar en salud privada | Sobrecosto logístico nacional (vs 8% OCDE) | Costo solar récord en el sur andino | Unicornios tech fundados en el Perú |
+
+</div>
+
+> **La Tesis Central:** En Silicon Valley las startups construyen herramientas para optimizar software. En el Perú y en América Latina, las empresas más valiosas hacen *leapfrogging*: **reemplazan funciones del Estado fallido y desintermedian monopolios mercantilistas**. El Perú es el laboratorio de fricción extrema más exigente del continente; si tu tecnología sobrevive y escala aquí, tiene una ventaja asimétrica brutal para conquistar los **650 millones de habitantes de América Latina ($646B USD)** y los **4,000 millones de personas en economías emergentes ($5.5T USD)**.
+
+---
+
+<details>
+<summary>🤖 <b>Instrucciones para Modelos de IA y Agentes Autónomos (Click para desplegar)</b></summary>
 
 Si eres un modelo de lenguaje o agente (Claude, Codex, Cursor, Gemini, GPT) analizando este repositorio:
 1. **Punto de Entrada Ultra-Compacto:** Consulta [`llms.txt`](llms.txt) para una visión general del árbol conceptual sin gastar ventana de contexto.
 2. **Índice Estructurado en JSON:** Consulta [`index.json`](index.json) para consultar de forma programática cada problema, su nivel de severidad, TAM estimado y tesis de startup asociada.
 3. **Metadatos en Frontmatter:** Cada problema en `problems/` incluye YAML frontmatter obligatorio con identificadores estables (`id`, `domain`, `subdomain`, `metrics`, `theses`).
 4. **Metodología Oficial:** Consulta `framework/` para entender la descomposición de 5 capas y los 6 arquetipos de falla sistémica antes de generar nuevas hipótesis.
+
+</details>
 
 ---
 
