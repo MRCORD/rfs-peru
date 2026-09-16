@@ -4,7 +4,7 @@
     "domain_id": "D1",
     "domain_name": "Soberanía, Orden Jurídico y Seguridad",
     "title": "Extorsión Sistemática a Pymes y Cobro de Cupos",
-    "file": "problems/D1_seguridad_y_justicia/D1-01-extorsion-pymes.md",
+    "file": "problems/D1_seguridad_y_justicia/C1.1_orden_interno_y_policia/S1.1.1_inteligencia_y_crimen_organizado/D1-01-extorsion-pymes.md",
     "severity": "critical",
     "metrics": {
       "annual_reports": 85000,
@@ -47,7 +47,7 @@
     "domain_id": "D2",
     "domain_name": "Estructura Económica, Mercados y Capital",
     "title": "Ceguera Crediticia Algorítmica y Exclusión del 71% Informal",
-    "file": "problems/D2_economia_y_capital/D2-01-ceguera-crediticia-informal.md",
+    "file": "problems/D2_economia_y_capital/C2.1_asuntos_economicos_fiscales_financieros/S2.1.2_regulacion_y_supervision_financiera/D2-01-ceguera-crediticia-informal.md",
     "severity": "critical",
     "metrics": {
       "informal_workforce_percentage": 0.71,
@@ -91,7 +91,7 @@
     "domain_id": "D3",
     "domain_name": "Bienestar Social, Capital Humano y Servicios Vitales",
     "title": "Cártel del Retail Farmacéutico y Desabastecimiento Hospitalario",
-    "file": "problems/D3_salud_y_capital_humano/D3-01-cartel-farmacias-d2c.md",
+    "file": "problems/D3_salud_y_capital_humano/C3.1_salud_publica_y_aseguramiento/S3.1.3_abastecimiento_y_regulacion_farmaceutica/D3-01-cartel-farmacias-d2c.md",
     "severity": "critical",
     "metrics": {
       "retail_chain_concentration_pct": 0.85,

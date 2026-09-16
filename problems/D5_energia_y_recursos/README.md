@@ -49,14 +49,15 @@ graph TD
 
 ## 🏛️ Desglose de Carteras y Subcarteras en este Dominio
 
-* **Cartera 5.1: Asuntos de Minería y Renta Extractiva**
-  * *5.1.1. Horizonte de Reservas y Soberanía* (Ventana de 50 años del cobre sin fondo soberano).
-  * *5.1.2. Gestión Socioambiental y Conflictos* (Bloqueos del Corredor Minero del Sur).
-* **Cartera 5.2: Asuntos de Energía y Cómputo de Escala**
-  * *5.2.1. Generación Renovable y Nodos* (Energía solar a $65/MWh sin contratos industriales).
-  * *5.2.2. Hidrocarburos y Gas Natural* (Gasoducto del sur paralizado; rescates a Petroperú).
-  * *5.2.3. Infraestructura de Cómputo de IA* (Fuga de divisas pagando servidores en Norteamérica).
-* **Cartera 5.3: Asuntos Agrarios y Recursos Hídricos**
-  * *5.3.1. Eficiencia Hídrica en Cuencas* (60% de agua dulce perdida en riego por inundación).
-* **Cartera 5.4: Asuntos Ambientales y Biodiversidad**
-  * *5.4.1. Deforestación y Pasivos Mineros* (150,000 ha deforestadas/año; 8,000 pasivos mineros).
+* **[Cartera 5.1: Asuntos de Minería y Renta Extractiva](C5.1_mineria_y_renta_extractiva/README.md)**
+  * [*5.1.1. Horizonte de Reservas y Soberanía*](C5.1_mineria_y_renta_extractiva/S5.1.1_horizonte_reservas_capitalizacion/README.md) (Ventana de 50 años del cobre sin fondo soberano).
+  * [*5.1.2. Gestión Socioambiental y Conflictos*](C5.1_mineria_y_renta_extractiva/S5.1.2_formalizacion_minera_conflictos_sociales/README.md) (Bloqueos del Corredor Minero del Sur).
+* **[Cartera 5.2: Asuntos de Energía y Cómputo de Escala](C5.2_electricidad_hidrocarburos_computo/README.md)**
+  * [*5.2.1. Generación Renovable y Nodos*](C5.2_electricidad_hidrocarburos_computo/S5.2.1_generacion_renovable_red/README.md) (Energía solar a $65/MWh sin contratos industriales).
+  * [*5.2.2. Hidrocarburos y Gas Natural*](C5.2_electricidad_hidrocarburos_computo/S5.2.2_hidrocarburos_gas_natural/README.md) (Gasoducto del sur paralizado; rescates a Petroperú).
+  * [*5.2.3. Infraestructura de Cómputo de IA*](C5.2_electricidad_hidrocarburos_computo/S5.2.3_infraestructura_computo_data_centers/README.md) (Fuga de divisas pagando servidores en Norteamérica).
+* **[Cartera 5.3: Asuntos Agrarios y Recursos Hídricos](C5.3_recursos_hidricos_y_riego/README.md)**
+  * [*5.3.1. Eficiencia Hídrica en Cuencas*](C5.3_recursos_hidricos_y_riego/S5.3.1_eficiencia_hidrica_riego_tecnificado/README.md) (60% de agua dulce perdida en riego por inundación).
+* **[Cartera 5.4: Asuntos Ambientales y Biodiversidad](C5.4_conservacion_ambiental_biodiversidad/README.md)**
+  * [*5.4.1. Pasivos Mineros y Fiscalización*](C5.4_conservacion_ambiental_biodiversidad/S5.4.1_certificacion_fiscalizacion_pasivos/README.md) (8,000 pasivos mineros históricos sin remediación).
+  * [*5.4.2. Cobertura Forestal y Deforestación*](C5.4_conservacion_ambiental_biodiversidad/S5.4.2_cobertura_forestal_deforestacion/README.md) (150,000 ha de bosque destruidas al año).
