@@ -24,32 +24,48 @@
 
 ---
 
-## DOMINIO 1: Seguridad, Coerción y Orden Jurídico
-*Función: Garantizar el monopolio legítimo de la fuerza, la inviolabilidad de la vida y la protección de los derechos de propiedad.*
+## DOMINIO 1: Soberanía del Estado, Orden Jurídico y Protección de Derechos Fundamentales
+*Función Macro: Establecer y sostener el orden público, garantizar el monopolio legítimo de la fuerza en todo el territorio, salvaguardar la vida y libertades civiles, hacer cumplir los contratos y proteger los derechos de propiedad.*
 
-### Subdominio 1.1: Seguridad Física y Coerción Extrainstitucional
-* **1.1.1. Extorsión sistemática a unidades productivas de calle (Cobro de Cupos):**
-  - *Mecánica:* Grupos delictivos imponen tributación forzosa a comercios minoristas y talleres mediante intimidación armada y ataques con artefactos explosivos.
-  - *Métrica:* 85,000 denuncias anuales con 0.02% de condenas efectivas.
-* **1.1.2. Coerción armada en cadenas de transporte masivo y de carga:**
-  - *Mecánica:* Asesinatos selectivos de operadores de transporte urbano para forzar el pago de peajes criminales diarios por ruta.
-* **1.1.3. Control territorial y economías ilícitas armadas:**
-  - *Mecánica:* Zonas de exclusión soberana donde el Estado no tiene presencia efectiva: minería ilegal de oro aluvial ($4,000M+/año), narcotráfico en cuencas cocaleras y contrabando fronterizo.
-* **1.1.4. Resolución violenta de controversias y crédito predatorio ("Gota a Gota"):**
-  - *Mecánica:* Redes de préstamo usurero informal que operan con cobranza coactiva extralegal bajo amenaza física o muerte.
+### Subdominio 1.1: Control Territorial, Monopolio de la Coerción e Integridad de Fronteras
+* **1.1.1. Fragmentación territorial y zonas de exclusión estatal:**
+  - *Mecánica:* Pérdida de control territorial en cuencas de frontera, valles cocaleros (VRAEM) y enclaves fluviales donde la ley del Estado no rige y el orden es administrado por organizaciones armadas ilegales.
+* **1.1.2. Penetración de economías criminales transnacionales:**
+  - *Mecánica:* Redes globales de narcotráfico, tráfico de armas, trata de personas y extracción ilícita de minerales ($4,000M+/año en oro aluvial) que cooptan autoridades locales y disputan corredores logísticos soberanos.
+* **1.1.3. Vulnerabilidad y porosidad fronteriza:**
+  - *Mecánica:* Falta de telemetría, vigilancia satelital y control aduanero-militar efectivo a lo largo de miles de kilómetros de frontera amazónica y andina, facilitando el contrabando masivo y el flujo de capitales ilícitos.
 
-### Subdominio 1.2: Integridad de los Derechos de Propiedad y Saneamiento
-* **1.2.1. Inseguridad jurídica en la tenencia de la tierra:**
-  - *Mecánica:* Descoordinación entre catastros municipales, regionales y registros públicos (SUNARP); duplicidad de partidas y títulos superpuestos.
-* **1.2.2. Usurpación y tráfico de suelo:**
-  - *Mecánica:* Bandas organizadas de invasión de terrenos privados y estatales que blanquean posesiones mediante constancias emitidas por autoridades locales y jueces de paz.
+### Subdominio 1.2: Seguridad Ciudadana, Violencia Extrainstitucional y Coerción Económica
+* **1.2.1. Renta coercitiva sobre la actividad económica (Extorsión y cobro de cupos):**
+  - *Mecánica:* Imposición de tributación violenta clandestina a comercios, pymes, obras de construcción y redes de transporte masivo bajo amenaza de atentados y sicariato (85,000 denuncias anuales con 0.02% de condenas).
+* **1.2.2. Resolución armada de obligaciones y crédito predatorio ("Gota a Gota"):**
+  - *Mecánica:* Mercados financieros paralelos que operan con tasas extorsivas del 20%-30% semanal, donde el colateral es la integridad física del prestatario y la cobranza se ejecuta fuera de la ley.
+* **1.2.3. Criminalidad urbana de alto impacto e indefensión ciudadana:**
+  - *Mecánica:* Robo a mano armada, secuestros exprés y homicidio por encargo que destruyen la habitabilidad del espacio público y obligan a los ciudadanos y barrios a asumir sobrecostos de enrejado y seguridad privada atomizada.
 
-### Subdominio 1.3: Capacidad y Eficacia del Aparato de Justicia Penal
-* **1.3.1. Cuello de botella en la investigación y carga procesal fiscal:**
-  - *Mecánica:* Carpetas fiscales tramitadas en soportes analógicos de papel, vulnerables a demoras de años, pérdida de evidencia y prescripción de delitos.
-* **1.3.2. Colapso del sistema penitenciario y desarticulación de la disuasión:**
-  - *Mecánica:* Penales con sobrepoblación del 130% que carecen de inhibición efectiva de telecomunicaciones, funcionando como centrales de comando de extorsión hacia el exterior.
+### Subdominio 1.3: Régimen de Derechos de Propiedad, Contratos y Seguridad Inmobiliaria
+* **1.3.1. Inseguridad jurídica en la tenencia de la tierra y catastro fragmentado:**
+  - *Mecánica:* Falta de un catastro multipropósito integrado a nivel nacional; superposición de partidas registrales en Registros Públicos (SUNARP) y colusión con autoridades locales que facilitan la usurpación y el tráfico de terrenos.
+* **1.3.2. Vulnerabilidad contractual y costo prohibitivo de ejecución mercantil:**
+  - *Mecánica:* Procesos judiciales comerciales que tardan entre 4 y 7 años para resolver incumplimientos de contratos, ejecutar garantías hipotecarias o cobrar pagarés, encareciendo el costo de transacción de toda la economía.
+* **1.3.3. Protección deficiente de la propiedad intelectual y activos intangibles:**
+  - *Mecánica:* Falsificación masiva y piratería no fiscalizada que desincentivan la inversión en desarrollo de marca, patentes e innovación científica local.
 
+### Subdominio 1.4: Acceso, Oportunidad y Eficacia del Sistema de Administración de Justicia
+* **1.4.1. Asimetría denuncia-sanción y quiebre de la disuasión penal:**
+  - *Mecánica:* Sobrecarga del Ministerio Público y el Poder Judicial operando con expedientes en papel físico y peritajes forenses obsoletos, resultando en que menos del 1% de los delitos denunciados culminen en sentencias efectivas.
+* **1.4.2. Asimetría de acceso a la defensa legal de calidad:**
+  - *Mecánica:* La defensa pública estatal saturada y sin recursos deja en la práctica desamparados a los ciudadanos de bajos ingresos, mientras que los litigios de gran escala quedan reservados a quienes pueden financiar arbitrajes o bufetes corporativos de élite.
+* **1.4.3. Corrupción judicial y captura de operadores de justicia:**
+  - *Mecánica:* Redes de tráfico de influencias, intercambio de favores procesales y discrecionalidad en la designación de magistrados provisionales que erosionan la igualdad ante la ley.
+
+### Subdominio 1.5: Sistema Penitenciario, Rehabilitación y Cadena de Sanción
+* **1.5.1. Colapso del régimen penitenciario y hacinamiento crítico:**
+  - *Mecánica:* Penales con sobrepoblación del 130% al 150% que carecen de infraestructura básica de salubridad y aislamiento, perdiendo el control interno en pabellones penitenciarios.
+* **1.5.2. Penales como nodos activos de coordinación criminal exterior:**
+  - *Mecánica:* Bloqueadores de señal celular inoperativos o deliberadamente desconectados, permitiendo que cabecillas presos coordinen extorsiones, sicariatos y tráfico de drogas en tiempo real.
+* **1.5.3. Fracaso absoluto de la reinserción social y tasa de reincidencia:**
+  - *Mecánica:* Ausencia de programas serios de formación técnica y laboral en encierro, convirtiendo a las prisiones en "universidades del delito" donde el infractor primario egresa como delincuente profesionalizado.
 ---
 
 ## DOMINIO 2: Estructura Económica, Mercados y Capital
